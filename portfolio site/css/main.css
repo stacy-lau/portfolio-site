@@ -1,0 +1,163 @@
+/*
+HTML and CSS is my own, with code from Lesson 18 used as reference for building this website.
+*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 12px;
+    color: #424242;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+header, nav, footer, section, article, div {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__logo {
+    height: 140px;
+    vertical-align: top;
+    margin: 2em 0;
+}
+
+.header__title {
+    font-weight: 300;
+    font-size: 5em;
+    vertical-align: top;
+    margin: 0.5em 0.25em;
+    display: block;
+    color: #212121;
+    text-align: right;
+}
+
+.header__subtitle {
+    font-weight: 300;
+    font-size: 2em;
+    color: #212121;
+    margin: 0 0.75em 1em;
+    display: inline-block;
+    text-align: right;
+}
+
+.line {
+    height: 0.5em;
+    background-color: #7d97ad;
+    border: none;
+    width: 100%;
+    order: 3;
+}
+
+.header__core {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    order: 1;
+    width: 50%;
+}
+
+.right {
+    order: 2;
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+.right span {
+    display: block;
+}
+
+/*
+ *
+ * Hero
+ *
+ */
+
+.hero {
+    float: left;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    margin: 2em 0;
+    order: 4;
+}
+
+.img__hero {
+    width: 100%;
+}
+
+/*
+ *
+ * Featured Work
+ *
+ */
+
+.featured__work {
+    width: 100%;
+    padding: 1em;
+    order: 5;
+}
+
+.featured__work__heading {
+    display: block;
+    font-weight: 300;
+    font-size: 3em;
+    margin: 0.5em;
+    color: #666;
+}
+
+.featured__work__subhead {
+    display: block;
+    font-weight: 300;
+    font-size: 2em;
+    margin: 0.5em;
+}
+
+.featured__work__item {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 0.9em;
+}
+
+.featured__work__item span {
+    display: block;
+}
+
+.featured__work__image {
+  width: 100%;
+}
