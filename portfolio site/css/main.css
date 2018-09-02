@@ -185,6 +185,11 @@ p {
     text-align: center;
 }
 
+.featured__work__link {
+    display: block;
+    text-align: center;
+}
+
 .featured__work__image {
     width: 100%;
 }
